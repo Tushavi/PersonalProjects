@@ -12,4 +12,4 @@ COLOR_FILLED    = (30,120,220)
 SLEEP_TIME  = 0.03
 
 # Testing params
-NUMTESTS    = 65536
+NUMTESTS    = 1000
