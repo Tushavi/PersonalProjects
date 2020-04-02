@@ -14,6 +14,9 @@ def get_row_col(i, n) :
 
 # Percolation sim order and chaos
 size = int(input("Enter size of percolation grid: "))
+if size == 1 :
+    print('100% duh!')
+    exit()
 percolation = Percolation(size)
 random_order = [i for i in range(size*size)]
 random.shuffle(random_order)
